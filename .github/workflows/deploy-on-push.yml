@@ -16,4 +16,5 @@ jobs:
         key: ${{secrets.SSH_KEY}} 
         source: "./html/*" 
         target: "/var/www/html" 
-        strip_components： 1
+        strip_components: 1
+        
